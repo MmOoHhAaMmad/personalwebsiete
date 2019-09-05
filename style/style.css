@@ -1,0 +1,276 @@
+body {
+    background-color: rgb(20, 18, 18);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    background-color: black;
+    font-size: 25px;
+    padding: 2%;
+    margin-left: 0.5%;
+    box-shadow: 4px 5px grey;
+    border-radius: 25px;
+    display: inline;
+    color: darkred;
+
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: wheat;
+
+
+}
+
+ul li:hover {
+    text-decoration-color: (2rgb45, 9, 186);
+    transform: rotate(50);
+    transition-duration: 0.5s;
+    background-color: rgba(121, 105, 189, 0.705);
+    font-size: 3em;
+    box-shadow: 4px 5px rgb(245, 2, 123);
+
+}
+
+p {
+    display: inline;
+    color: darkred;
+}
+
+.action {
+    width: 100px;
+    height: 55px;
+    background-color: gray;
+    border-radius: 10px;
+    float: right;
+    box-shadow: -5px 1px red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vw;
+    position: relative;
+    right: 50px;
+    animation-name: hiaction;
+    animation-duration: 20s;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+ @-webkit-keyframes hiaction{
+    0% {
+        background-color: aqua;
+        right: 20px;
+
+    }
+
+    50% {
+        background-color: blueviolet;
+        right: 1090PX;
+    }
+
+    100% {
+        background-color: blue;
+        right: 50px;
+    }
+}
+
+
+
+
+
+
+.onelog {
+    width: 350px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.towlog {
+    width: 350px;
+    height: 300px;
+}
+
+.threlog {
+    width: 350px;
+    height: 300px;
+}
+
+.forlog {
+    width: 580px;
+    height: 300px
+}
+
+
+.divImg:hover {
+    margin-top: auto;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.anon:hover {
+    border: solid 1px;
+}
+
+.anto:hover {
+    border: solid 1px;
+}
+
+.anthr:hover {
+    border: solid 1px;
+}
+
+.imgteam {
+    width: 60%;
+    height: 50%;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.table {
+    margin: auto;
+    width: 98%;
+    height: 125px;
+    margin: auto;
+}
+.table td {
+    width: 33%;
+    height: 400px;
+    color:gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:2em;
+
+}
+.table td:hover {
+    transition-duration: 1s;
+    width: 33%;
+}
+table img {
+    width: 100%;
+    height: 100%;
+}
+.table img:hover {
+    width: 100%;
+    height: 100%;
+    transition-duration: 2s;
+    font-size: 2em;
+}
+table video {
+    width: 100%;
+    height: 100%;
+}
+.video:hover {
+    border: solid 1px;
+    margin: auto;
+}
+.divTeam {
+    border: 2px double;
+    background-color: brown;
+    float: right;
+    width: 38%;
+    height: 750px;
+    margin-top: 30px;
+    text-decoration: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6vw
+}
+.h1c {
+    color: rgb(241, 238, 7);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vw;
+}
+.imgadress {
+    width: 50%;
+    height: 50%;
+}
+.bigDiv {
+    width: 45%;
+    height: 750px;
+    float: right;
+}
+.inputo {
+    width: 100%;
+    height: 50px;
+    border: 2px solid;
+    background-color: burlywood;
+    margin: auto;
+    font-size: 1vw;
+}
+.inputt {
+    width: 100%;
+    height: 50px;
+    border: 2px solid;
+    background-color: burlywood;
+    margin: auto;
+    font-size: 1vw;
+}
+.inputthree {
+    width: 100%;
+    height: 50px;
+    border: 2px solid;
+    background-color: burlywood;
+    margin: auto;
+    font-size: 1vw;
+}
+.inpotfor {
+    width: 100%;
+    height: 50px;
+    border: 2px solid;
+    background-color: burlywood;
+    margin: auto;
+    font-size: 1vw;
+}
+.fulA {
+    width: 85%;
+    height: 70%;
+    margin-top: 2px;
+}
+.fulA:hover {
+    background-color: coral;
+}
+.fulB {
+    width: 85%;
+    height: 70%;
+    margin-top: 2px;
+}
+.fulB:hover {
+    background-color: coral;
+}
+.fulC {
+    width: 85%;
+    height: 70%;
+    margin-top: 2px;
+}
+.fulC:hover {
+    background-color: coral;
+}
+.fulD {
+    width: 85%;
+    height: 70%;
+    margin-top: 2px;
+}
+.fulD:hover {
+    background-color: coral;
+
+}
+.textco:hover {
+    background-color: darkolivegreen;
+    width: 100%;
+    height: 40%;
+    transition-duration: 3s;
+}
+.butt {
+    width: 40%;
+    height: 60px;
+}
+.butt:hover {
+    background-color: darkolivegreen;
+    width: 100%;
+    height: 70px;
+    transition-duration: 3s;
+}
